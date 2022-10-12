@@ -12,6 +12,7 @@ func main() {
   opts := append(chromedp.DefaultExecAllocatorOptions[:],
     chromedp.Flag("headless", true),
     chromedp.Flag("remote-debugging-port", "9222"),
+    chromedp.Flag("user-data-dir","/Users/<username>/Library/Application Support/Google/Chrome"),
   )
 
   allocCtx, cancel := chromedp.NewExecAllocator(context.Background(), opts...)
