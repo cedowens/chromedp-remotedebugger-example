@@ -1,6 +1,6 @@
 # chromedp-remotedebugger-example
 
-A super simple example of how to use chromedp to run Chrome headless with the remote debugger port programmatically.
+A super simple example of how to use chromedp to run Chrome headless with the remote debugger port programmatically (is still a wrapper around the Chrome binary).
 
 ## Steps
 1. edit the main.go file and add the username to the Chrome path
